@@ -1,6 +1,8 @@
 /* ========Components========== */
 
 :root {
+  --primary-font: 'Roboto', sans-serif;;
+  --secondary-font: 'Raleway', sans-serif;;
   --accent-color: #2196f3;
 }
 
@@ -27,7 +29,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--primary-font)
   color: #212121;
 }
 /* =========/Components========= */
@@ -35,7 +37,7 @@ body {
 /* =========Header */
 
 .menu-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
