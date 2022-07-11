@@ -2,7 +2,8 @@
 
 :root {
   --primary-font: 'Roboto', sans-serif;;
-  --secondary-font: 'Raleway', sans-serif;;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-font-color: #212121;
   --accent-color: #2196f3;
 }
 
@@ -30,7 +31,7 @@
 
 body {
   font-family: var(--primary-font)
-  color: #212121;
+  color: var(--primary-font-color);
 }
 /* =========/Components========= */
 
