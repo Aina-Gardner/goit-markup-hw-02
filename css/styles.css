@@ -29,6 +29,10 @@
   color: #000000;
 }
 
+.logo-studio-white{
+  color: #FFFFFF;
+}
+
 body {
   font-family: var(--primary-font);
   color: var(--primary-font-color);
